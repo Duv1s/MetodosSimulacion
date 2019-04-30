@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Pseudo-Aleatorios" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Pseudo-Aleatorios" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Pseudo-Aleatorios" options="-bootclasspath &quot;C:\Users\WINDOWS\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\183.5429.30\jre64\lib\resources.jar;C:\Users\WINDOWS\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\183.5429.30\jre64\lib\rt.jar;C:\Users\WINDOWS\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\183.5429.30\jre64\lib\sunrsasign.jar;C:\Users\WINDOWS\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\183.5429.30\jre64\lib\jsse.jar;C:\Users\WINDOWS\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\183.5429.30\jre64\lib\jce.jar;C:\Users\WINDOWS\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\183.5429.30\jre64\lib\charsets.jar;C:\Users\WINDOWS\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\183.5429.30\jre64\lib\jfr.jar;C:\Users\WINDOWS\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\183.5429.30\jre64\classes;C:/Program Files/Java/jdk1.8.0_202/jre/lib/jfxrt.jar&quot;" />
+    </option>
+  </component>
+</project>
