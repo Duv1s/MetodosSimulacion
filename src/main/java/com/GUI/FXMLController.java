@@ -30,13 +30,11 @@ public class FXMLController implements Initializable {
     @FXML
     private JFXTextField seedTextField, infiniteGenerationInput, xoInput, xoInputM, aInput, aInputM, bInput, mInput, mInputM, iterationsInput, iterationsInputM, maxInput, minInput, iterationsUniformDistributionInput;
     @FXML
-    private JFXToggleButton infiniteGenerationToggle;
-    @FXML
     private JFXListView<Double> numbersList;
     @FXML
     private ListView<Double> listNumbersConLineal, listNumbersConMulti, listMeanTest, listVarianceTest, listNiUniformDistribution, listRiUniformDistribution, listKSTest;
     @FXML
-    private Button saveMiddleSquaresTxtButton, generateMiddleSquearesButton, stopMeanSquearesButton, saveMiddleSquaresXlsButton, saveConLinealTxtButton, saveConLinealXlsButton, saveConMultiTxtButton, saveConMultiXlsButton, testMeansButton, testVarianceButton, testKSButton, doTestMeansButton, generateUniformDistribution, saveUniformDistriXlsButton, loadNumbersUniformDistribution, saveUniformDistriTxtButton;
+    private Button generateMiddleSquearesButton, stopMeanSquearesButto, saveConMultiTxtButton, saveConMultiXlsButton;
     @FXML
     private JFXSlider meanAcceptGradesSlider, varianceAcceptGradesSlider, KSAcceptGradesSlider;
     @FXML
@@ -181,17 +179,13 @@ public class FXMLController implements Initializable {
     @FXML
     void cleanMiddleSquares() {
         middleSquaresResult.clear();
-        saveMiddleSquaresTxtButton.setDisable(true);
-        saveMiddleSquaresXlsButton.setDisable(true);
         seedTextField.setText("");
-        infiniteGenerationToggle.setSelected(false);
         infiniteGenerationInput.setText("");
         infiniteGenerationInput.setDisable(false);
     }
 
     private void disableAndEnabled() {
         loadingSpinner.setVisible(true);
-        stopMeanSquearesButton.setVisible(true);
         generateMiddleSquearesButton.setDisable(true);
     }
 
@@ -227,7 +221,6 @@ public class FXMLController implements Initializable {
             threadMeanSquaresExec = new Thread(() -> {
                 meanSquares.generateIn(middleSquaresResult);
                 loadingSpinner.setVisible(false);
-                stopMeanSquearesButton.setVisible(false);
                 generateMiddleSquearesButton.setDisable(false);
             });
             threadMeanSquaresExec.start();
@@ -242,7 +235,6 @@ public class FXMLController implements Initializable {
     void stopMiddleSqueares() {
         threadMeanSquaresExec.interrupt();
         threadMeanSquaresExec.stop();
-        stopMeanSquearesButton.setVisible(false);
         loadingSpinner.setVisible(false);
         generateMiddleSquearesButton.setDisable(false);
     }
@@ -263,39 +255,6 @@ public class FXMLController implements Initializable {
         operationUniformDistribution.generatePseudo();
         uniformDistriResult.addAll(operationUniformDistribution.getListNumberPseudo());
     }
-
-    /**
-     * Redirige a la ventana del método de cuadrados medios
-     */
-    @FXML
-    void goToMiddleSquaresTab() {
-        mainTabbedPanel.getSelectionModel().select(0);
-    }
-
-    /**
-     * Redirige a la ventana del método de congruencia lineal
-     */
-    @FXML
-    void goToCongruentialLinealTab() {
-        mainTabbedPanel.getSelectionModel().select(1);
-    }
-
-    /**
-     * Redirige a la ventana del método de congruencia multiplicativa
-     */
-    @FXML
-    void goToCongruentialMultiTab() {
-        mainTabbedPanel.getSelectionModel().select(2);
-    }
-
-    /**
-     * Redirige a la ventana del método de Distribución Uniforme
-     */
-    @FXML
-    void goToUniformTab() {
-        mainTabbedPanel.getSelectionModel().select(3);
-    }
-
     /**
      * Redirige a la ventana de la prueba de medias
      */
@@ -342,14 +301,6 @@ public class FXMLController implements Initializable {
         alert.setHeaderText("Datos erroneos");
         alert.setContentText("Asegurese que los parámetros de entrada son correctos");
         alert.showAndWait();
-    }
-
-    /**
-     * Habilita o deshabilita el campo para ingresar la cantidad de números a generar en el método de cuadrados medios
-     */
-    @FXML
-    void switchIterations() {
-        infiniteGenerationInput.setDisable(infiniteGenerationToggle.isSelected());
     }
 
     /**

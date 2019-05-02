@@ -119,8 +119,4 @@ public class VarianceTest {
     public double getLI() {
         return LI;
     }
-
-    public List<Double> getList() {
-        return list;
-    }
 }
