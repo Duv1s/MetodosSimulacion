@@ -8,8 +8,7 @@
 
 .tab-pane:focused>.tab-header-area>.headers-region>.tab:selected .focus-indicator {
     -fx-border-color: #217346;
-    -fx-background-color: white;
-    -fx-text-fill: black;
+    /*-fx-background-color: white;*/
 }
 
 
