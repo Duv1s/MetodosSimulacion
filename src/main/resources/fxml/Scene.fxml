@@ -16,10 +16,10 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="535.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.GUI.FXMLController">
-    <TabPane fx:id="mainTabbedPanel" layoutY="27.0" prefHeight="504.0" prefWidth="1000.0" side="BOTTOM" tabClosingPolicy="UNAVAILABLE">
-        <Tab closable="false" text="Cuadrados Medios">
-            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+<AnchorPane id="AnchorPane" prefHeight="490.0" prefWidth="997.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.GUI.FXMLController">
+    <TabPane fx:id="mainTabbedPanel" layoutY="0" prefHeight="504.0" prefWidth="1000.0" side="BOTTOM" style="-fx-background-color: white;" tabClosingPolicy="UNAVAILABLE">
+        <Tab closable="false" style="-fx-background-color: white;" text="Cuadrados Medios">
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="500.0" prefWidth="981.0">
                 <JFXSpinner fx:id="loadingSpinner" layoutX="137.0" layoutY="311.0" prefHeight="98.0" prefWidth="114.0" visible="false" />
                 <JFXTextField fx:id="seedTextField" focusColor="#009688" labelFloat="true" layoutX="44.0" layoutY="31.0" onKeyReleased="#checkSeedInput" prefHeight="39.0" prefWidth="280.0" promptText="Semilla" style="-fx-font-size: 18;" unFocusColor="BLACK">
                     <font>
@@ -31,7 +31,7 @@
                         <Font size="16.0" />
                     </font>
                 </JFXTextField>
-                <JFXListView fx:id="numbersList" layoutX="400.0" layoutY="29.0" prefHeight="418.0" prefWidth="541.0" />
+                <JFXListView fx:id="numbersList" layoutX="400.0" layoutY="42.0" prefHeight="405.0" prefWidth="541.0" />
                 <Button fx:id="generateMiddleSquearesButton" layoutX="102.0" layoutY="182.0" mnemonicParsing="false" onAction="#generateMiddleSqueares" text="Generar">
                     <font>
                         <Font size="14.0" />
@@ -63,43 +63,48 @@
                         <Font size="14.0" />
                     </font>
                 </Button>
-            <Label layoutX="47.0" layoutY="298.0" text="Pruebas">
+            <Label layoutX="158.0" layoutY="298.0" text="Pruebas">
                <font>
                   <Font name="System Bold Italic" size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="571.0" layoutY="14.0" prefHeight="25.0" prefWidth="200.0" text="Ri" textAlignment="CENTER">
+               <font>
+                  <Font size="16.0" />
                </font>
             </Label>
             </AnchorPane>
         </Tab>
         <Tab closable="false" text="Congruencia Lineal">
             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="549.0" prefWidth="974.0">
-                <JFXTextField labelFloat="true" layoutX="38.0" layoutY="99.0" promptText="Xo" fx:id="xoInput">
+                <JFXTextField focusColor="#009688" labelFloat="true" layoutX="38.0" layoutY="99.0" promptText="Xo" fx:id="xoInput">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </JFXTextField>
-                <JFXTextField fx:id="aInput" labelFloat="true" layoutX="38.0" layoutY="157.0" promptText="a = 1+2k">
+                <JFXTextField fx:id="aInput" focusColor="#009688" labelFloat="true" layoutX="38.0" layoutY="157.0" promptText="a = 1+2k">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </JFXTextField>
-                <JFXTextField fx:id="bInput" labelFloat="true" layoutX="38.0" layoutY="223.0" promptText="c">
+                <JFXTextField fx:id="bInput" focusColor="#009688" labelFloat="true" layoutX="38.0" layoutY="223.0" promptText="c">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </JFXTextField>
-                <JFXTextField fx:id="mInput" labelFloat="true" layoutX="257.0" layoutY="157.0" promptText=" m = 2^g">
+                <JFXTextField fx:id="mInput" focusColor="#009688" labelFloat="true" layoutX="257.0" layoutY="157.0" promptText=" m = 2^g">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </JFXTextField>
-                <JFXTextField fx:id="iterationsInput" labelFloat="true" layoutX="257.0" layoutY="220.0" promptText="Iteraciones">
+                <JFXTextField fx:id="iterationsInput" focusColor="#009688" labelFloat="true" layoutX="257.0" layoutY="220.0" promptText="Iteraciones">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </JFXTextField>
                 <Button layoutX="187.0" layoutY="290.0" mnemonicParsing="false" onAction="#generateCongruenLineal" text="Generar" />
-                <ListView fx:id="listNumbersConLineal" layoutX="459.0" layoutY="43.0" prefHeight="402.0" prefWidth="513.0" />
-                <Label layoutX="38.0" layoutY="382.0" text="Pruebas">
+                <ListView fx:id="listNumbersConLineal" layoutX="459.0" layoutY="27.0" prefHeight="418.0" prefWidth="513.0" />
+                <Label layoutX="191.0" layoutY="385.0" text="Pruebas">
                     <font>
                         <Font name="System Bold Italic" size="17.0" />
                     </font>
@@ -125,116 +130,95 @@
                   <Font size="16.0" />
                </font>
             </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="616.0" layoutY="2.0" prefHeight="25.0" prefWidth="200.0" text="Ri" textAlignment="CENTER">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
             </AnchorPane>
         </Tab>
         <Tab closable="false" text="Congruencia Multiplicativa">
             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-                <JFXTextField labelFloat="true" layoutX="53.0" layoutY="38.0" promptText="Xo" fx:id="xoInputM">
+                <JFXTextField focusColor="#009688" labelFloat="true" layoutX="53.0" layoutY="38.0" prefHeight="31.0" prefWidth="311.0" promptText="Xo" fx:id="xoInputM">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </JFXTextField>
-                <JFXTextField fx:id="aInputM" labelFloat="true" layoutX="53.0" layoutY="96.0" promptText="a">
+                <JFXTextField fx:id="aInputM" focusColor="#009688" labelFloat="true" layoutX="53.0" layoutY="96.0" prefHeight="31.0" prefWidth="310.0" promptText="a">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </JFXTextField>
-                <JFXTextField fx:id="mInputM" labelFloat="true" layoutX="53.0" layoutY="155.0" promptText="m">
+                <JFXTextField fx:id="mInputM" focusColor="#009688" labelFloat="true" layoutX="53.0" layoutY="155.0" prefHeight="31.0" prefWidth="307.0" promptText="m">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </JFXTextField>
-                <JFXTextField fx:id="iterationsInputM" labelFloat="true" layoutX="53.0" layoutY="218.0" promptText="Iteraciones">
+                <JFXTextField fx:id="iterationsInputM" focusColor="#009688" labelFloat="true" layoutX="53.0" layoutY="218.0" prefHeight="31.0" prefWidth="307.0" promptText="Iteraciones">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </JFXTextField>
-                <Button layoutX="112.0" layoutY="369.0" mnemonicParsing="false" onAction="#generateCongruenMulti" text="Generar" />
-                <ListView fx:id="listNumbersConMulti" layoutX="400.0" layoutY="27.0" prefHeight="379.0" prefWidth="263.0" />
-                <Separator layoutX="682.0" layoutY="69.0" prefWidth="200.0" />
-                <Button fx:id="saveConMultiTxtButton" disable="true" layoutX="682.0" layoutY="81.0" mnemonicParsing="false" onAction="#saveConMultiTxt" text="Texto plano">
-                    <font>
-                        <Font size="14.0" />
-                    </font>
-                </Button>
-                <Button fx:id="saveConMultiXlsButton" disable="true" layoutX="796.0" layoutY="81.0" mnemonicParsing="false" onAction="#saveConMultiXls" text="Hoja de Excel">
-                    <font>
-                        <Font size="14.0" />
-                    </font>
-                </Button>
-                <Label layoutX="682.0" layoutY="38.0" text="Exportar como">
-                    <font>
-                        <Font size="16.0" />
-                    </font>
-                </Label>
-            <Label layoutX="680.0" layoutY="127.0" text="Realizar Pruebas">
+                <Button layoutX="169.0" layoutY="275.0" mnemonicParsing="false" onAction="#generateCongruenMulti" text="Generar" />
+                <ListView fx:id="listNumbersConMulti" layoutX="433.0" layoutY="28.0" prefHeight="413.0" prefWidth="508.0" />
+            <Label layoutX="179.0" layoutY="343.0" text="Pruebas">
                <font>
-                  <Font size="15.0" />
+                  <Font name="System Bold Italic" size="17.0" />
                </font>
             </Label>
-            <Separator layoutX="681.0" layoutY="150.0" prefWidth="200.0" />
-            <Button layoutX="681.0" layoutY="161.0" mnemonicParsing="false" onAction="#goToTestMeans" text="Medias">
+            <Separator layoutX="49.0" layoutY="364.0" prefHeight="1.0" prefWidth="312.0" />
+            <Button layoutX="42.0" layoutY="367.0" mnemonicParsing="false" onAction="#goToTestMeans" text="Medias">
                <font>
                   <Font size="14.0" />
                </font>
             </Button>
-            <Button layoutX="759.0" layoutY="161.0" mnemonicParsing="false" onAction="#goToTestVariance" text="Varianza">
+            <Button layoutX="172.0" layoutY="367.0" mnemonicParsing="false" onAction="#goToTestVariance" text="Varianza">
                <font>
                   <Font size="14.0" />
                </font>
             </Button>
-            <Button layoutX="847.0" layoutY="160.0" mnemonicParsing="false" onAction="#goToTestKS" text="KS">
+            <Button layoutX="304.0" layoutY="367.0" mnemonicParsing="false" onAction="#goToTestKS" text="Poker">
                <font>
                   <Font size="14.0" />
                </font>
             </Button>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="587.0" layoutY="2.0" prefHeight="25.0" prefWidth="200.0" text="Ri" textAlignment="CENTER">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
             </AnchorPane>
         </Tab>
         <Tab closable="false" text="Distribución Uniforme">
             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-                <JFXTextField fx:id="maxInput" labelFloat="true" layoutX="35.0" layoutY="26.0" prefWidth="201.0" promptText="Máximo">
+                <JFXTextField fx:id="maxInput" focusColor="#009688" labelFloat="true" layoutX="36.0" layoutY="110.0" prefHeight="31.0" prefWidth="271.0" promptText="a (Máximo)">
                <font>
                   <Font size="15.0" />
                </font>
             </JFXTextField>
-                <JFXTextField fx:id="minInput" labelFloat="true" layoutX="35.0" layoutY="76.0" prefWidth="201.0" promptText="Mínimo">
+                <JFXTextField fx:id="minInput" focusColor="#009688" labelFloat="true" layoutX="37.0" layoutY="175.0" prefHeight="31.0" prefWidth="269.0" promptText="b(Mínimo)">
                <font>
                   <Font size="15.0" />
                </font>
             </JFXTextField>
-                <ListView fx:id="listNiUniformDistribution" layoutX="300.0" layoutY="50.0" prefHeight="404.0" prefWidth="200.0" />
-                <Button layoutX="104.0" layoutY="173.0" mnemonicParsing="false" onAction="#generateUniformDistribution" text="Generar">
+                <ListView fx:id="listNiUniformDistribution" layoutX="700.0" layoutY="54.0" prefHeight="404.0" prefWidth="268.0" />
+                <Button layoutX="140.0" layoutY="312.0" mnemonicParsing="false" onAction="#generateUniformDistribution" text="Generar">
                <font>
                   <Font size="13.0" />
                </font></Button>
-                <JFXTextField fx:id="iterationsUniformDistributionInput" labelFloat="true" layoutX="35.0" layoutY="127.0" prefHeight="31.0" prefWidth="201.0" promptText="Números">
+                <JFXTextField fx:id="iterationsUniformDistributionInput" focusColor="#009688" labelFloat="true" layoutX="38.0" layoutY="241.0" prefHeight="31.0" prefWidth="268.0" promptText="Cantidad de números a generar">
                <font>
                   <Font size="15.0" />
                </font>
             </JFXTextField>
-            <ListView fx:id="listRiUniformDistribution" layoutX="35.0" layoutY="239.0" prefHeight="219.0" prefWidth="201.0" />
-            <Separator layoutX="554.0" layoutY="57.0" prefWidth="200.0" />
-            <Button fx:id="saveUniformDistriTxtButton" layoutX="554.0" layoutY="61.0" mnemonicParsing="false" onAction="#saveUniformDistriTxt" text="Texto plano">
-               <font>
-                  <Font size="14.0" />
-               </font>
-            </Button>
-            <Button fx:id="saveUniformDistriXlsButton" layoutX="664.0" layoutY="61.0" mnemonicParsing="false" onAction="#saveUniformDistriXls" text="Hoja de Excel">
-               <font>
-                  <Font size="14.0" />
-               </font>
-            </Button>
-            <Label layoutX="554.0" layoutY="29.0" text="Exportar como">
-                <font>
-                    <Font size="16.0" />
-                </font>
-            </Label>
-                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="36.0" layoutY="215.0" prefHeight="25.0" prefWidth="200.0" text="Ri" textAlignment="CENTER">
+            <ListView fx:id="listRiUniformDistribution" layoutX="347.0" layoutY="55.0" prefHeight="403.0" prefWidth="253.0" />
+
+                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="374.0" layoutY="29.0" prefHeight="25.0" prefWidth="200.0" text="Ri" textAlignment="CENTER">
                     <font>
                         <Font size="16.0" />
                     </font>
                 </Label>
-                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="300.0" layoutY="17.0" prefHeight="25.0" prefWidth="200.0" text="Ni" textAlignment="CENTER">
+                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="734.0" layoutY="29.0" prefHeight="25.0" prefWidth="200.0" text="Ni" textAlignment="CENTER">
                     <font>
                         <Font size="16.0" />
                     </font>
@@ -575,7 +559,7 @@
                         <Font size="15.0" />
                     </font>
                 </Label>
-                <Label fx:id="KsValidLabel" layoutX="812.0" layoutY="319.0" text="Validio?">
+                <Label fx:id="KsValidLabel" layoutX="812.0" layoutY="319.0" text="Valido?">
                     <font>
                         <Font name="System Bold" size="24.0" />
                     </font>

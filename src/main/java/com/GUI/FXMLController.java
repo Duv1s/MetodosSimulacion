@@ -14,7 +14,6 @@ import javafx.scene.control.*;
 
 import java.math.BigInteger;
 import java.net.URL;
-import java.util.ArrayList;
 import java.util.ResourceBundle;
 
 public class FXMLController implements Initializable {
@@ -44,69 +43,6 @@ public class FXMLController implements Initializable {
     @FXML
     private BarChart<String, Number> histograma;
 
-    /**
-     * Guarda la lista de números generados con congruencia multiplicativa como texto plano
-     */
-    @FXML
-    void saveConMultiTxt() {
-        FileUtils.savePlainText(Utils.convertDoubleToString(congruentialMultiResult), mainTabbedPanel.getScene().getWindow());
-    }
-
-    /**
-     * Guarda la lista de números generados con congruencia multiplicativa como una hoja de excel
-     */
-    @FXML
-    void saveConMultiXls() {
-        FileUtils.saveExcel(Utils.convertDoubleToString(congruentialMultiResult), mainTabbedPanel.getScene().getWindow(), "Congruencial Multiplicativo");
-    }
-
-    /**
-     * Guarda la lista de números generados con congruencia lineal como texto plano
-     */
-    @FXML
-    void saveConLinealTxt() {
-        FileUtils.savePlainText(Utils.convertDoubleToString(congruentialLinealResult), mainTabbedPanel.getScene().getWindow());
-    }
-
-    /**
-     * Guarda la lista de números generados con congruencia lineal como hoja de excel
-     */
-    @FXML
-    void saveConLinealXls() {
-        FileUtils.saveExcel(Utils.convertDoubleToString(congruentialLinealResult), mainTabbedPanel.getScene().getWindow(), "Congruencial Lineal");
-    }
-
-    /**
-     * Guarda la lista de números generados con cuadrados medios como texto plano
-     */
-    @FXML
-    void saveMiddleSquaresTxt() {
-        FileUtils.savePlainText(Utils.convertDoubleToString(new ArrayList<>(middleSquaresResult)), mainTabbedPanel.getScene().getWindow());
-    }
-
-    /**
-     * Guarda la lista de números generados con cuadrados medios como una hoja de excel
-     */
-    @FXML
-    void saveMiddleSquaresXls() {
-        FileUtils.saveExcel(Utils.convertDoubleToString(new ArrayList<>(middleSquaresResult)), mainTabbedPanel.getScene().getWindow(), "Cuadrados Medios");
-    }
-
-    /**
-     * Guarda la lista de números generados con Distribución uniforme como texto plano
-     */
-    @FXML
-    void saveUniformDistriTxt() {
-        FileUtils.savePlainText(Utils.convertDoubleToString(new ArrayList<>(uniformDistriResult)), mainTabbedPanel.getScene().getWindow());
-    }
-
-    /**
-     * Guarda la lista de números generados con Distribución uniforme como una hoja de excel
-     */
-    @FXML
-    void saveUniformDistriXls() {
-        FileUtils.saveExcel(Utils.convertDoubleToString(new ArrayList<>(uniformDistriResult)), mainTabbedPanel.getScene().getWindow(), "Distribución Uniforme");
-    }
 
     /**
      * Inicia la generación de números con el método de congruencia lineal

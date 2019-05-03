@@ -1,3 +1,10 @@
 .tab {
     -fx-font-size: 13;
 }
+
+.tab-pane:focused>.tab-header-area>.headers-region>.tab:selected .focus-indicator {
+    -fx-border-color: #217346;
+    /*-fx-color:red;*/
+}
+
+
