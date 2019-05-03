@@ -18,7 +18,7 @@
 
 <AnchorPane id="AnchorPane" prefHeight="490.0" prefWidth="997.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.GUI.FXMLController">
     <TabPane fx:id="mainTabbedPanel" layoutY="0" prefHeight="504.0" prefWidth="1000.0" side="BOTTOM" style="-fx-background-color: white;" tabClosingPolicy="UNAVAILABLE">
-        <Tab closable="false" style="-fx-background-color: white;" text="Cuadrados Medios">
+        <Tab closable="false"  text="Cuadrados Medios">
             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="500.0" prefWidth="981.0">
                 <JFXSpinner fx:id="loadingSpinner" layoutX="137.0" layoutY="311.0" prefHeight="98.0" prefWidth="114.0" visible="false" />
                 <JFXTextField fx:id="seedTextField" focusColor="#009688" labelFloat="true" layoutX="44.0" layoutY="31.0" onKeyReleased="#checkSeedInput" prefHeight="39.0" prefWidth="280.0" promptText="Semilla" style="-fx-font-size: 18;" unFocusColor="BLACK">

@@ -2,9 +2,14 @@
     -fx-font-size: 13;
 }
 
+#tabPane .tab:selected .tab-label {
+    -fx-text-fill: black ;
+}
+
 .tab-pane:focused>.tab-header-area>.headers-region>.tab:selected .focus-indicator {
     -fx-border-color: #217346;
-    /*-fx-color:red;*/
+    /*-fx-background-color: white;*/
 }
+
 
 

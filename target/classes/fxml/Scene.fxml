@@ -18,7 +18,7 @@
 
 <AnchorPane id="AnchorPane" prefHeight="490.0" prefWidth="997.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.GUI.FXMLController">
     <TabPane fx:id="mainTabbedPanel" layoutY="0" prefHeight="504.0" prefWidth="1000.0" side="BOTTOM" style="-fx-background-color: white;" tabClosingPolicy="UNAVAILABLE">
-        <Tab closable="false" text="Cuadrados Medios" style="-fx-background-color: white;">
+        <Tab closable="false" style="-fx-background-color: white;" text="Cuadrados Medios">
             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="500.0" prefWidth="981.0">
                 <JFXSpinner fx:id="loadingSpinner" layoutX="137.0" layoutY="311.0" prefHeight="98.0" prefWidth="114.0" visible="false" />
                 <JFXTextField fx:id="seedTextField" focusColor="#009688" labelFloat="true" layoutX="44.0" layoutY="31.0" onKeyReleased="#checkSeedInput" prefHeight="39.0" prefWidth="280.0" promptText="Semilla" style="-fx-font-size: 18;" unFocusColor="BLACK">
@@ -77,27 +77,27 @@
         </Tab>
         <Tab closable="false" text="Congruencia Lineal">
             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="549.0" prefWidth="974.0">
-                <JFXTextField labelFloat="true" layoutX="38.0" layoutY="99.0" promptText="Xo" fx:id="xoInput">
+                <JFXTextField focusColor="#009688" labelFloat="true" layoutX="38.0" layoutY="99.0" promptText="Xo" fx:id="xoInput">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </JFXTextField>
-                <JFXTextField fx:id="aInput" labelFloat="true" layoutX="38.0" layoutY="157.0" promptText="a = 1+2k">
+                <JFXTextField fx:id="aInput" focusColor="#009688" labelFloat="true" layoutX="38.0" layoutY="157.0" promptText="a = 1+2k">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </JFXTextField>
-                <JFXTextField fx:id="bInput" labelFloat="true" layoutX="38.0" layoutY="223.0" promptText="c">
+                <JFXTextField fx:id="bInput" focusColor="#009688" labelFloat="true" layoutX="38.0" layoutY="223.0" promptText="c">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </JFXTextField>
-                <JFXTextField fx:id="mInput" labelFloat="true" layoutX="257.0" layoutY="157.0" promptText=" m = 2^g">
+                <JFXTextField fx:id="mInput" focusColor="#009688" labelFloat="true" layoutX="257.0" layoutY="157.0" promptText=" m = 2^g">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </JFXTextField>
-                <JFXTextField fx:id="iterationsInput" labelFloat="true" layoutX="257.0" layoutY="220.0" promptText="Iteraciones">
+                <JFXTextField fx:id="iterationsInput" focusColor="#009688" labelFloat="true" layoutX="257.0" layoutY="220.0" promptText="Iteraciones">
                     <font>
                         <Font size="15.0" />
                     </font>
@@ -139,22 +139,22 @@
         </Tab>
         <Tab closable="false" text="Congruencia Multiplicativa">
             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-                <JFXTextField labelFloat="true" layoutX="53.0" layoutY="38.0" prefHeight="31.0" prefWidth="311.0" promptText="Xo" fx:id="xoInputM">
+                <JFXTextField focusColor="#009688" labelFloat="true" layoutX="53.0" layoutY="38.0" prefHeight="31.0" prefWidth="311.0" promptText="Xo" fx:id="xoInputM">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </JFXTextField>
-                <JFXTextField fx:id="aInputM" labelFloat="true" layoutX="53.0" layoutY="96.0" prefHeight="31.0" prefWidth="310.0" promptText="a">
+                <JFXTextField fx:id="aInputM" focusColor="#009688" labelFloat="true" layoutX="53.0" layoutY="96.0" prefHeight="31.0" prefWidth="310.0" promptText="a">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </JFXTextField>
-                <JFXTextField fx:id="mInputM" labelFloat="true" layoutX="53.0" layoutY="155.0" prefHeight="31.0" prefWidth="307.0" promptText="m">
+                <JFXTextField fx:id="mInputM" focusColor="#009688" labelFloat="true" layoutX="53.0" layoutY="155.0" prefHeight="31.0" prefWidth="307.0" promptText="m">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </JFXTextField>
-                <JFXTextField fx:id="iterationsInputM" labelFloat="true" layoutX="53.0" layoutY="218.0" prefHeight="31.0" prefWidth="307.0" promptText="Iteraciones">
+                <JFXTextField fx:id="iterationsInputM" focusColor="#009688" labelFloat="true" layoutX="53.0" layoutY="218.0" prefHeight="31.0" prefWidth="307.0" promptText="Iteraciones">
                     <font>
                         <Font size="15.0" />
                     </font>
@@ -191,12 +191,12 @@
         </Tab>
         <Tab closable="false" text="Distribución Uniforme">
             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-                <JFXTextField fx:id="maxInput" labelFloat="true" layoutX="36.0" layoutY="110.0" prefHeight="31.0" prefWidth="271.0" promptText="a (Máximo)">
+                <JFXTextField fx:id="maxInput" focusColor="#009688" labelFloat="true" layoutX="36.0" layoutY="110.0" prefHeight="31.0" prefWidth="271.0" promptText="a (Máximo)">
                <font>
                   <Font size="15.0" />
                </font>
             </JFXTextField>
-                <JFXTextField fx:id="minInput" labelFloat="true" layoutX="37.0" layoutY="175.0" prefHeight="31.0" prefWidth="269.0" promptText="b(Mínimo)">
+                <JFXTextField fx:id="minInput" focusColor="#009688" labelFloat="true" layoutX="37.0" layoutY="175.0" prefHeight="31.0" prefWidth="269.0" promptText="b(Mínimo)">
                <font>
                   <Font size="15.0" />
                </font>
@@ -206,7 +206,7 @@
                <font>
                   <Font size="13.0" />
                </font></Button>
-                <JFXTextField fx:id="iterationsUniformDistributionInput" labelFloat="true" layoutX="38.0" layoutY="241.0" prefHeight="31.0" prefWidth="268.0" promptText="Cantidad de números a generar">
+                <JFXTextField fx:id="iterationsUniformDistributionInput" focusColor="#009688" labelFloat="true" layoutX="38.0" layoutY="241.0" prefHeight="31.0" prefWidth="268.0" promptText="Cantidad de números a generar">
                <font>
                   <Font size="15.0" />
                </font>
@@ -559,7 +559,7 @@
                         <Font size="15.0" />
                     </font>
                 </Label>
-                <Label fx:id="KsValidLabel" layoutX="812.0" layoutY="319.0" text="Validio?">
+                <Label fx:id="KsValidLabel" layoutX="812.0" layoutY="319.0" text="Valido?">
                     <font>
                         <Font name="System Bold" size="24.0" />
                     </font>
