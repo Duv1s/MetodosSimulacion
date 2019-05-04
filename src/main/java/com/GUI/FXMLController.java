@@ -226,7 +226,7 @@ public class FXMLController implements Initializable {
      * Redirige a la ventana de la prueba de K-S
      */
     @FXML
-    void goToTestKS() {
+    void goToTestPoker() {
         cleanKSTest();
         setResultsInListView(listKSTest);
         mainTabbedPanel.getSelectionModel().select(6);

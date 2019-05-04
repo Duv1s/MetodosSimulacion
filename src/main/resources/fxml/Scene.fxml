@@ -58,7 +58,7 @@
                         <Font size="14.0" />
                     </font>
                 </Button>
-                <Button layoutX="281.0" layoutY="333.0" mnemonicParsing="false" onAction="#goToTestKS" text="Poker">
+                <Button layoutX="281.0" layoutY="333.0" mnemonicParsing="false" onAction="#goToTestPoker" text="Poker">
                     <font>
                         <Font size="14.0" />
                     </font>
@@ -120,7 +120,7 @@
                         <Font size="14.0" />
                     </font>
                 </Button>
-                <Button layoutX="367.0" layoutY="421.0" mnemonicParsing="false" onAction="#goToTestKS" text="Poker">
+                <Button layoutX="367.0" layoutY="421.0" mnemonicParsing="false" onAction="#goToTestPoker" text="Poker">
                     <font>
                         <Font size="14.0" />
                     </font>
@@ -177,7 +177,7 @@
                   <Font size="14.0" />
                </font>
             </Button>
-            <Button layoutX="304.0" layoutY="367.0" mnemonicParsing="false" onAction="#goToTestKS" text="Poker">
+            <Button layoutX="304.0" layoutY="367.0" mnemonicParsing="false" onAction="#goToTestPoker" text="Poker">
                <font>
                   <Font size="14.0" />
                </font>
