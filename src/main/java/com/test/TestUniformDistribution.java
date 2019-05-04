@@ -1,6 +1,6 @@
 package com.test;
 
-import com.logic.OperationUniformDistribution;
+import com.logic.method.operation.OperationUniformDistribution;
 
 import java.util.ArrayList;
 

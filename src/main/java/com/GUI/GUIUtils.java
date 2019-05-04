@@ -4,6 +4,9 @@ import com.jfoenix.controls.JFXTextField;
 import javafx.scene.effect.DropShadow;
 import javafx.scene.paint.Color;
 
+/**
+ * @author Duvis Gómez && Martin Vivanco.
+ */
 class GUIUtils {
     static final DropShadow ERROR_GLOW = new DropShadow();
     static final Color ERROR_COLOR = Color.rgb(218, 3, 3);

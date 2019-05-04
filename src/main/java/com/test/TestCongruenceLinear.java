@@ -1,7 +1,7 @@
 package com.test;
 
-import com.logic.OperationCongruenceLinear;
-import com.logic.CongruenceLinear;
+import com.logic.method.operation.OperationCongruenceLinear;
+import com.logic.method.CongruenceLinear;
 import javafx.collections.FXCollections;
 
 /**

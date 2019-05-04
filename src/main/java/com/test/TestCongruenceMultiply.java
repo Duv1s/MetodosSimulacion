@@ -1,7 +1,7 @@
 package com.test;
 
-import com.logic.CongruenceMultiply;
-import com.logic.OperationCongruenceMultiply;
+import com.logic.method.CongruenceMultiply;
+import com.logic.method.operation.OperationCongruenceMultiply;
 import javafx.collections.FXCollections;
 
 class TestCongruenceMultiply {

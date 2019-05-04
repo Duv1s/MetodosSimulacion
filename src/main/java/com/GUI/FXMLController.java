@@ -2,7 +2,15 @@ package com.GUI;
 
 import com.jfoenix.controls.*;
 import com.logic.*;
-import com.logic.*;
+import com.logic.method.CongruenceLinear;
+import com.logic.method.CongruenceMultiply;
+import com.logic.method.MiddleSquares;
+import com.logic.method.operation.OperationCongruenceLinear;
+import com.logic.method.operation.OperationCongruenceMultiply;
+import com.logic.method.operation.OperationUniformDistribution;
+import com.logic.methodTest.MeanTest;
+import com.logic.methodTest.VarianceTest;
+import com.logic.utils.Utils;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -16,6 +24,9 @@ import java.math.BigInteger;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+/**
+ * @author Duvis Gómez && Martin Vivanco.
+ */
 public class FXMLController implements Initializable {
 
     private ObservableList<Double> middleSquaresResult, congruentialLinealResult, congruentialMultiResult, uniformDistriResult, uniformDistriInput;

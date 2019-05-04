@@ -1,8 +1,13 @@
 package com.logic;
 
+import com.logic.utils.Interval;
+
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Duvis Gómez && Martin Vivanco.
+ */
 public class KolmogorovSmirnov {
     private int aceptatio;
     private double alpha;

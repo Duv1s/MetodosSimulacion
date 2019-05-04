@@ -462,7 +462,7 @@
                 </Label>
             </AnchorPane>
         </Tab>
-        <Tab closable="false" text="Prueba KS">
+        <Tab closable="false" text="Prueba poker">
             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                 <BarChart fx:id="histograma" layoutX="272.0" layoutY="126.0" legendSide="TOP" prefHeight="330.0" prefWidth="506.0" title="Histograma">
                     <xAxis>

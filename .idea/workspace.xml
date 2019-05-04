@@ -7,8 +7,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c77574d-8e1e-40a4-86f6-6eedf4bb69eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/logic/methodTest/PokerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Pseudo_Aleatorios_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Pseudo_Aleatorios_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/GUI/FXMLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/GUI/FXMLController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/GUI/GUIUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/GUI/GUIUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/logic/CongruenceLinear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/logic/method/CongruenceLinear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/logic/CongruenceMultiply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/logic/method/CongruenceMultiply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/logic/Interval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/logic/utils/Interval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/logic/KolmogorovSmirnov.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/logic/KolmogorovSmirnov.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/logic/MeanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/logic/methodTest/MeanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/logic/MiddleSquares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/logic/method/MiddleSquares.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/logic/OperationCongruenceLinear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/logic/method/operation/OperationCongruenceLinear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/logic/OperationCongruenceMultiply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/logic/method/operation/OperationCongruenceMultiply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/logic/OperationUniformDistribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/logic/method/operation/OperationUniformDistribution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/logic/SimpleInterval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/logic/utils/SimpleInterval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/logic/SquareChi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/logic/methodTest/SquareChiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/logic/TestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/logic/utils/TestUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/logic/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/logic/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/logic/VarianceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/logic/methodTest/VarianceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/TestCongruenceLinear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/TestCongruenceLinear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/TestCongruenceMultiply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/TestCongruenceMultiply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/TestUniformDistribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/TestUniformDistribution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/Scene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/Scene.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Pseudo-Aleatorios.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/GUI/FXMLController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/GUI/FXMLController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/GUI/GUIUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/GUI/GUIUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/logic/CongruenceLinear.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/logic/CongruenceMultiply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/logic/Interval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/logic/KolmogorovSmirnov.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/logic/KolmogorovSmirnov.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/logic/MeanTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/logic/MiddleSquares.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/logic/OperationCongruenceLinear.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/logic/OperationCongruenceMultiply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/logic/OperationUniformDistribution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/logic/SimpleInterval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/logic/SquareChi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/logic/TestUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/logic/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/logic/VarianceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/TestCongruenceLinear.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/TestCongruenceLinear.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/TestCongruenceMultiply.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/TestCongruenceMultiply.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/TestKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/TestKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/TestUniformDistribution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/TestUniformDistribution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/Scene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/Scene.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,20 +71,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/OperationUniformDistribution.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="26" selection-start-line="30" selection-end-line="31" />
+            <state relative-caret-position="340">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/TestUtils.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="58" column="48" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="48" />
+            <state relative-caret-position="17">
+              <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -87,24 +132,37 @@
         <option value="$PROJECT_DIR$/src/main/java/com/yuliamz/logic/MiddleSquares.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yuliamz/test/TestKS.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/main/MainApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/logic/CongruenceLinear.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/logic/MiddleSquares.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/logic/Utils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/logic/VarianceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/logic/SimpleInterval.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/logic/SquareChi.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/GUI/FXMLController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/GUI/FileUtils.java" />
         <option value="$PROJECT_DIR$/src/main/resources/styles/Styles.css" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/Scene.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/GUI/FXMLController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/GUI/GUIUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/logic/CongruenceLinear.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/logic/CongruenceMultiply.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/logic/Interval.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/logic/KolmogorovSmirnov.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/logic/MeanTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/logic/MiddleSquares.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/logic/OperationCongruenceLinear.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/logic/OperationCongruenceMultiply.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/logic/OperationUniformDistribution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/logic/SimpleInterval.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/logic/SquareChi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/logic/TestUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/logic/Utils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/logic/VarianceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/logic/methodTest/PokerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/logic/utils/Utils.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1350" />
+    <option name="height" value="730" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -112,7 +170,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,6 +181,24 @@
             <path>
               <item name="metodosSimulacion" type="b2602c69:ProjectViewProjectNode" />
               <item name="metodosSimulacion" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="metodosSimulacion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="metodosSimulacion" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="metodosSimulacion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="metodosSimulacion" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Pseudo_Aleatorios_jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="metodosSimulacion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="metodosSimulacion" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -145,42 +221,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="metodosSimulacion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="metodosSimulacion" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="GUI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="metodosSimulacion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="metodosSimulacion" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="metodosSimulacion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="metodosSimulacion" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="metodosSimulacion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="metodosSimulacion" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="metodosSimulacion" type="b2602c69:ProjectViewProjectNode" />
@@ -190,34 +230,11 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="metodosSimulacion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="metodosSimulacion" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="metodosSimulacion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="metodosSimulacion" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="fxml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="metodosSimulacion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="metodosSimulacion" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,14 +246,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556655320233" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Desktop" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\Decimo Semestre\Simulación\Taller 1\metodosSimulacion\src\main\java\META-INF" />
+      <recent name="D:\Documents\Decimo Semestre\Simulación\Taller 1\metodosSimulacion\src\main\java\com\logic\methodTest" />
       <recent name="D:\Documents\Decimo Semestre\Simulación\Taller 1\metodosSimulacion\src\main\java\com\logic" />
     </key>
   </component>
@@ -323,12 +343,15 @@
       <workItem from="1556655877219" duration="2125000" />
       <workItem from="1556842969724" duration="84000" />
       <workItem from="1556843099545" duration="7800000" />
-      <workItem from="1556851013874" duration="842000" />
+      <workItem from="1556851013874" duration="897000" />
+      <workItem from="1556917143113" duration="776000" />
+      <workItem from="1556919606667" duration="640000" />
+      <workItem from="1556985364916" duration="4331000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33596000" />
+    <option name="totallyTimeSpent" value="39398000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -340,10 +363,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26778522" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27986577" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -354,16 +376,16 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="CheckStyle" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.065155804" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.20254958" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.4986577" weight="0.04249292" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5013423" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4986577" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5013423" side_tool="true" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.11331445" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4986577" weight="0.3286119" />
       <window_info anchor="right" id="Maven" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -419,18 +441,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/logic/KolmogorovSmirnov.java</url>
-          <line>132</line>
+          <line>137</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/logic/CongruenceLinear.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/logic/method/CongruenceLinear.java</url>
           <line>56</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/logic/CongruenceLinear.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/logic/method/CongruenceLinear.java</url>
           <line>36</line>
           <properties />
           <option name="timeStamp" value="3" />
@@ -448,13 +470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/OperationCongruenceMultiply.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-464">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -478,181 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/CongruenceMultiply.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-214">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/CongruenceLinear.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding>
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-            <element signature="e#996#997#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1048#1049#0" expanded="true" />
-            <element signature="e#1073#1074#0" expanded="true" />
-            <element signature="e#1106#1107#0" expanded="true" />
-            <element signature="e#1129#1130#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/OperationCongruenceLinear.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/GUI/GUIUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/VarianceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2006">
-          <caret line="120" column="5" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3138#3139#0" expanded="true" />
-            <element signature="e#3177#3178#0" expanded="true" />
-            <element signature="e#3211#3212#0" expanded="true" />
-            <element signature="e#3244#3245#0" expanded="true" />
-            <element signature="e#3278#3279#0" expanded="true" />
-            <element signature="e#3308#3309#0" expanded="true" />
-            <element signature="e#3347#3348#0" expanded="true" />
-            <element signature="e#3385#3386#0" expanded="true" />
-            <element signature="e#3420#3421#0" expanded="true" />
-            <element signature="e#3451#3452#0" expanded="true" />
-            <element signature="e#3485#3486#0" expanded="true" />
-            <element signature="e#3515#3516#0" expanded="true" />
-            <element signature="e#3552#3553#0" expanded="true" />
-            <element signature="e#3585#3586#0" expanded="true" />
-            <element signature="e#3622#3623#0" expanded="true" />
-            <element signature="e#3655#3656#0" expanded="true" />
-            <element signature="e#3692#3693#0" expanded="true" />
-            <element signature="e#3725#3726#0" expanded="true" />
-            <element signature="e#3754#3755#0" expanded="true" />
-            <element signature="e#3779#3780#0" expanded="true" />
-            <element signature="e#3808#3809#0" expanded="true" />
-            <element signature="e#3833#3834#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/Interval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/SimpleInterval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
-          <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/KolmogorovSmirnov.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#926#927#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#1020#1021#0" expanded="true" />
-            <element signature="method#calculatedProbabilityExpected#0;class#KolmogorovSmirnov#0" />
-            <element signature="method#calculatedFrequencyExpected#0;class#KolmogorovSmirnov#0" />
-            <element signature="method#calculatedGetProbability#0;class#KolmogorovSmirnov#0" />
-            <element signature="method#calculateFrequencyAcumulated#0;class#KolmogorovSmirnov#0" />
-            <element signature="method#calculateFrequency#0;class#KolmogorovSmirnov#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/MeanTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-          <folding>
-            <element signature="e#2308#2309#0" expanded="true" />
-            <element signature="e#2347#2348#0" expanded="true" />
-            <element signature="e#2381#2382#0" expanded="true" />
-            <element signature="e#2414#2415#0" expanded="true" />
-            <element signature="e#2448#2449#0" expanded="true" />
-            <element signature="e#2478#2479#0" expanded="true" />
-            <element signature="e#2517#2518#0" expanded="true" />
-            <element signature="e#2555#2556#0" expanded="true" />
-            <element signature="e#2589#2590#0" expanded="true" />
-            <element signature="e#2619#2620#0" expanded="true" />
-            <element signature="e#2647#2648#0" expanded="true" />
-            <element signature="e#2671#2672#0" expanded="true" />
-            <element signature="e#2700#2701#0" expanded="true" />
-            <element signature="e#2725#2726#0" expanded="true" />
-            <element signature="e#2754#2755#0" expanded="true" />
-            <element signature="e#2779#2780#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/SquareChi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1790">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -685,23 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/MiddleSquares.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/GUI/FXMLController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="157" column="27" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/styles/Styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -712,22 +535,191 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/Scene.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="5627">
+        <state relative-caret-position="5712">
           <caret line="336" column="60" selection-start-line="336" selection-start-column="34" selection-end-line="336" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/TestUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/GUI/FXMLController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="58" column="48" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="48" />
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="19" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4227#4228#0" expanded="true" />
+            <element signature="e#4257#4258#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/OperationUniformDistribution.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/GUI/GUIUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="26" selection-start-line="30" selection-end-line="31" />
+        <state relative-caret-position="102">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/KolmogorovSmirnov.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
+            <element signature="e#1020#1021#0" expanded="true" />
+            <element signature="method#calculatedProbabilityExpected#0;class#KolmogorovSmirnov#0" />
+            <element signature="method#calculatedFrequencyExpected#0;class#KolmogorovSmirnov#0" />
+            <element signature="method#calculatedGetProbability#0;class#KolmogorovSmirnov#0" />
+            <element signature="method#calculateFrequencyAcumulated#0;class#KolmogorovSmirnov#0" />
+            <element signature="method#calculateFrequency#0;class#KolmogorovSmirnov#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/method/MiddleSquares.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/method/CongruenceLinear.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/method/CongruenceMultiply.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/method/operation/OperationCongruenceLinear.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/method/operation/OperationCongruenceMultiply.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/method/operation/OperationUniformDistribution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/methodTest/MeanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#2347#2348#0" expanded="true" />
+            <element signature="e#2386#2387#0" expanded="true" />
+            <element signature="e#2487#2488#0" expanded="true" />
+            <element signature="e#2517#2518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/methodTest/VarianceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3138#3139#0" expanded="true" />
+            <element signature="e#3177#3178#0" expanded="true" />
+            <element signature="e#3211#3212#0" expanded="true" />
+            <element signature="e#3244#3245#0" expanded="true" />
+            <element signature="e#3278#3279#0" expanded="true" />
+            <element signature="e#3308#3309#0" expanded="true" />
+            <element signature="e#3347#3348#0" expanded="true" />
+            <element signature="e#3385#3386#0" expanded="true" />
+            <element signature="e#3420#3421#0" expanded="true" />
+            <element signature="e#3451#3452#0" expanded="true" />
+            <element signature="e#3485#3486#0" expanded="true" />
+            <element signature="e#3515#3516#0" expanded="true" />
+            <element signature="e#3552#3553#0" expanded="true" />
+            <element signature="e#3585#3586#0" expanded="true" />
+            <element signature="e#3622#3623#0" expanded="true" />
+            <element signature="e#3655#3656#0" expanded="true" />
+            <element signature="e#3692#3693#0" expanded="true" />
+            <element signature="e#3725#3726#0" expanded="true" />
+            <element signature="e#3754#3755#0" expanded="true" />
+            <element signature="e#3779#3780#0" expanded="true" />
+            <element signature="e#3808#3809#0" expanded="true" />
+            <element signature="e#3833#3834#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/methodTest/PokerTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/methodTest/SquareChiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/utils/Interval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/utils/SimpleInterval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/logic/utils/TestUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -790,7 +782,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
