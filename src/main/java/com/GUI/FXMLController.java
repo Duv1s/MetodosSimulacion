@@ -1,7 +1,6 @@
 package com.GUI;
 
 import com.jfoenix.controls.*;
-import com.logic.*;
 import com.logic.method.CongruenceLinear;
 import com.logic.method.CongruenceMultiply;
 import com.logic.method.MiddleSquares;
@@ -9,6 +8,7 @@ import com.logic.method.operation.OperationCongruenceLinear;
 import com.logic.method.operation.OperationCongruenceMultiply;
 import com.logic.method.operation.OperationUniformDistribution;
 import com.logic.methodTest.MeanTest;
+import com.logic.methodTest.PokerTest;
 import com.logic.methodTest.VarianceTest;
 import com.logic.utils.Utils;
 import javafx.beans.value.ObservableValue;
@@ -46,13 +46,11 @@ public class FXMLController implements Initializable {
     @FXML
     private Button generateMiddleSquearesButton, stopMeanSquearesButto, saveConMultiTxtButton, saveConMultiXlsButton;
     @FXML
-    private JFXSlider meanAcceptGradesSlider, varianceAcceptGradesSlider, KSAcceptGradesSlider;
+    private JFXSlider meanAcceptGradesSlider, varianceAcceptGradesSlider;
     @FXML
     private Label meanAcceptGradeLabel, meanAlphaLabel, meanMeanLabel, meanNLabel, meanOneAlphaLabel, meanZLabel, meanLILabel, meanLSLabel, meanValidLabel,
             varianceAccepGradesLabel, varianceAlphaLabel, varianceMeanLabel, varianceNLabel, varianceVarianceLabel, varianceAlphaMediosLabel, varianceUnoAlphaMediosLabell, varianceChiAlphaLabel, varianceChiUnoAplhaLabel, varianceLILabel, varianceLSLabel, varianceValidLabel,
-            ksAcceptationGradesLabel, ksAlphaLabel, ksMeanLabel, ksNLabel, ksMinLabel, ksMaxLabel, ksDmaxLabel, ksDmaxPLabel, KsValidLabel;
-    @FXML
-    private BarChart<String, Number> histograma;
+            pKAcceptationGradesLabel, pKDF, pkOP, pKTP, pKFH, pKST, pKP, pKSummatory, pKQ, pKValidLabel;
 
 
     /**
@@ -83,9 +81,6 @@ public class FXMLController implements Initializable {
                 Integer.parseInt(xoInputM.getText()),
                 Integer.parseInt(iterationsInputM.getText())));
         multiply.iteration(congruentialMultiResult);
-
-        saveConMultiTxtButton.setDisable(false);
-        saveConMultiXlsButton.setDisable(false);
     }
 
     /**
@@ -316,41 +311,25 @@ public class FXMLController implements Initializable {
     }
 
     /**
-     * Ejecuta una prueba de K-S, tomando los numeros cargados en el ListView
+     * Ejecuta una prueba de Poker, tomando los numeros cargados en el ListView
      */
-    public void testKS() {
-        KolmogorovSmirnov ks = new KolmogorovSmirnov((int) KSAcceptGradesSlider.getValue(), listKSTest.getItems());
-        ks.calculateFinalValue();
-        ks.calculateFrequency();
-        ks.calculateFrequencyAcumulated();
-        ks.calculatedGetProbability();
-        ks.calculatedFrequencyExpected();
-        ks.calculatedProbabilityExpected();
-        ks.calculatedDiference();
-        ks.calculatedDMAX();
-        ks.calculatedDMAXP();
-        boolean isValid = ks.isPseudo();
-        ksAcceptationGradesLabel.setText("" + ks.getAceptatio());
-        ksAlphaLabel.setText("" + ks.getAlpha());
-        ksMeanLabel.setText("" + ks.getMedium());
-        ksNLabel.setText("" + ks.getNumbersAmount());
-        ksMaxLabel.setText("" + ks.getMAX());
-        ksMinLabel.setText("" + ks.getMIN());
-        ksDmaxLabel.setText("" + ks.calculatedDMAX());
-        ksDmaxPLabel.setText("" + ks.calculatedDMAXP());
-
-        KsValidLabel.setText(isValid ? "Válido" : "Inválido");
-        KsValidLabel.setTextFill(isValid ? GUIUtils.OK_COLOR : GUIUtils.ERROR_COLOR);
-
+    public void testPoker() {
+        PokerTest pT = new PokerTest(0.05, listKSTest.getItems());
+        pT.processPokerTest();
+        boolean isValid = (pT.getSummationProbabilities() < 12.591587? true: false);
+        pKAcceptationGradesLabel.setText("" + 0.05);
+        pKDF.setText("" + pT.getDF());
+        pkOP.setText("" + pT.getOP());
+        pKTP.setText("" + pT.getTP());
+        pKST.setText("" + pT.getST());
+        pKFH.setText("" + pT.getFH());
+        pKP.setText("" + pT.getP());
+        pKQ.setText("" + pT.getQ());
+        pKSummatory.setText("" + pT.getSummationProbabilities());
+        pKValidLabel.setText(isValid ? "Válido" : "Inválido");
+        pKValidLabel.setTextFill(isValid ? GUIUtils.OK_COLOR : GUIUtils.ERROR_COLOR);
         XYChart.Series<String, Number> intervalos = new XYChart.Series<>();
         intervalos.setName("intervalos");
-
-        for (int i = 0; i < ks.getListInterval().size(); i++) {
-            intervalos.getData().add(new XYChart.Data<>("" + i, ks.getListInterval().get(i).getFrequencyGet()));
-        }
-        histograma.getData().add(intervalos);
-        histograma.getData().get(0).getData().forEach(this::displayLabelForData);
-        histograma.setVisible(true);
     }
 
     /**
@@ -395,18 +374,16 @@ public class FXMLController implements Initializable {
      */
     private void cleanKSTest() {
         listKSTest.setItems(null);
-        ksAcceptationGradesLabel.setText("" + GUIUtils.ACCEPT_GRADES);
-        KSAcceptGradesSlider.setValue(GUIUtils.ACCEPT_GRADES);
-        ksAlphaLabel.setText("");
-        ksMeanLabel.setText("");
-        ksNLabel.setText("");
-        ksMinLabel.setText("");
-        ksMaxLabel.setText("");
-        ksDmaxLabel.setText("");
-        ksDmaxPLabel.setText("");
-        KsValidLabel.setText("");
-        histograma.setVisible(false);
-        histograma.getData().clear();
+        pKAcceptationGradesLabel.setText("" + GUIUtils.ACCEPT_GRADES);
+        pKDF.setText("");
+        pkOP.setText("");
+        pKTP.setText("");
+        pKFH.setText("");
+        pKST.setText("");
+        pKP.setText("");
+        pKQ.setText("");
+        pKSummatory.setText("");
+        pKValidLabel.setText("");
     }
 
     /**
@@ -439,6 +416,5 @@ public class FXMLController implements Initializable {
         listNiUniformDistribution.setItems(uniformDistriResult);
         meanAcceptGradesSlider.valueProperty().addListener((ObservableValue<? extends Number> observable, Number oldValue, Number newValue) -> meanAcceptGradeLabel.setText("" + (int) newValue.doubleValue()));
         varianceAcceptGradesSlider.valueProperty().addListener((ObservableValue<? extends Number> observable, Number oldValue, Number newValue) -> varianceAccepGradesLabel.setText("" + (int) newValue.doubleValue()));
-        KSAcceptGradesSlider.valueProperty().addListener((ObservableValue<? extends Number> observable, Number oldValue, Number newValue) -> ksAcceptationGradesLabel.setText("" + (int) newValue.doubleValue()));
     }
 }

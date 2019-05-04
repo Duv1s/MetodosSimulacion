@@ -464,107 +464,104 @@
         </Tab>
         <Tab closable="false" text="Prueba poker">
             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-                <BarChart fx:id="histograma" layoutX="272.0" layoutY="126.0" legendSide="TOP" prefHeight="330.0" prefWidth="506.0" title="Histograma">
-                    <xAxis>
-                        <CategoryAxis fx:id="intervalXAxis" label="Intervalo" side="BOTTOM" />
-                    </xAxis>
-                    <yAxis>
-                        <NumberAxis fx:id="frecuenceYAxis" label="Frecuencia" side="LEFT" />
-                    </yAxis>
-                </BarChart>
+
                 <ListView fx:id="listKSTest" layoutX="14.0" layoutY="12.0" prefHeight="453.0" prefWidth="161.0" />
-                <JFXSlider fx:id="KSAcceptGradesSlider" layoutX="217.0" layoutY="48.0" majorTickUnit="5.0" minorTickCount="1" orientation="VERTICAL" prefHeight="415.0" prefWidth="80.0" showTickLabels="true" showTickMarks="true" style="-fx-font-size: 12;" value="95.0" />
-                <Button layoutX="459.0" layoutY="68.0" mnemonicParsing="false" onAction="#testKS" text="Realizar prueba =&gt;">
+                <Button layoutX="459.0" layoutY="68.0" mnemonicParsing="false" onAction="#testPoker" text="Realizar prueba =&gt;">
                     <font>
                         <Font size="16.0" />
                     </font>
                 </Button>
-                <Label layoutX="185.0" layoutY="11.0" text="Grados de aceptación">
+                <Label layoutX="785.0" layoutY="20.0" text="G. Aceptación">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </Label>
-                <Label layoutX="688.0" layoutY="20.0" text="Grado de aceptación">
+                <Label layoutX="785.0" layoutY="47.0" text="Diferent">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </Label>
-                <Label layoutX="816.0" layoutY="47.0" text="α">
+                <Label layoutX="785.0" layoutY="76.0" text="OnePar">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </Label>
-                <Label layoutX="785.0" layoutY="76.0" text="Media">
+                <Label layoutX="785.0" layoutY="105.0" text="TwoPar">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </Label>
-                <Label layoutX="815.0" layoutY="105.0" text="N">
+                <Label layoutX="785.0" layoutY="132.0" text="Set">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </Label>
-                <Label layoutX="781.0" layoutY="132.0" text="Mínimo">
+                <Label layoutX="785.0" layoutY="164.0" text="FullHouse">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </Label>
-                <Label layoutX="779.0" layoutY="164.0" text="Máximo">
+                <Label layoutX="785.0" layoutY="189.0" text="Poker">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </Label>
-                <Label layoutX="785.0" layoutY="189.0" text="DMAX">
+                <Label layoutX="785.0" layoutY="216.0" text="Quintilla">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </Label>
-                <Label layoutX="781.0" layoutY="216.0" text="DMAXP">
+                <Label layoutX="785.0" layoutY="243.0" text="Sumatoria">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </Label>
-                <Label fx:id="ksAcceptationGradesLabel" layoutX="852.0" layoutY="20.0" text="0">
+                <Label fx:id="pKAcceptationGradesLabel" layoutX="882.0" layoutY="20.0" text="0">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </Label>
-                <Label fx:id="ksAlphaLabel" layoutX="852.0" layoutY="47.0" text="0">
+                <Label fx:id="pKDF" layoutX="852.0" layoutY="47.0" text="0">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </Label>
-                <Label fx:id="ksMeanLabel" layoutX="852.0" layoutY="76.0" text="0">
+                <Label fx:id="pkOP" layoutX="852.0" layoutY="76.0" text="0">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </Label>
-                <Label fx:id="ksNLabel" layoutX="852.0" layoutY="105.0" text="0">
+                <Label fx:id="pKTP" layoutX="852.0" layoutY="105.0" text="0">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </Label>
-                <Label fx:id="ksMinLabel" layoutX="852.0" layoutY="132.0" text="0">
+                <Label fx:id="pKFH" layoutX="852.0" layoutY="132.0" text="0">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </Label>
-                <Label fx:id="ksMaxLabel" layoutX="852.0" layoutY="164.0" text="0">
+                <Label fx:id="pKST" layoutX="852.0" layoutY="164.0" text="0">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </Label>
-                <Label fx:id="ksDmaxLabel" layoutX="852.0" layoutY="189.0" text="0">
+                <Label fx:id="pKP" layoutX="852.0" layoutY="189.0" text="0">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </Label>
-                <Label fx:id="ksDmaxPLabel" layoutX="852.0" layoutY="216.0" text="0">
+                <Label fx:id="pKQ" layoutX="852.0" layoutY="216.0" text="0">
                     <font>
                         <Font size="15.0" />
                     </font>
                 </Label>
-                <Label fx:id="KsValidLabel" layoutX="812.0" layoutY="319.0" text="Valido?">
+                <Label fx:id="pKSummatory" layoutX="852.0" layoutY="243.0" text="0">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <Label fx:id="pKValidLabel" layoutX="812.0" layoutY="319.0" text="Valido?">
                     <font>
                         <Font name="System Bold" size="24.0" />
                     </font>

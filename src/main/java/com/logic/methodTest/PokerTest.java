@@ -3,10 +3,11 @@ package com.logic.methodTest;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.ArrayList;
+import java.util.List;
 
 public class PokerTest {
-    private ArrayList<Double> listNumber;
-    private ArrayList<Double> listNumberNormalized;
+    private List<Double> listNumber;
+    private List<Double> listNumberNormalized;
     private double aceptationNumber;
     private int DF, OP, TP, ST, FH, P, Q;
     private ArrayList<Double> listOfProbabilities;
@@ -14,7 +15,7 @@ public class PokerTest {
     private double min;
     private double summationProbabilities;
 
-    public PokerTest(double aceptationNumber, ArrayList<Double> numberList) {
+    public PokerTest(double aceptationNumber, List<Double> numberList) {
         this.aceptationNumber = aceptationNumber;
         this.listNumber = numberList;
         this.listNumberNormalized = new ArrayList<>();
@@ -31,6 +32,7 @@ public class PokerTest {
     public void processPokerTest() {
         setMaxAndMin();
         normalizeNumbers();
+        //this.listNumberNormalized = this.listNumber;
         countDecimals();
         calculateProbabilities();
     }
@@ -158,5 +160,33 @@ public class PokerTest {
 
     public double getSummationProbabilities() {
         return summationProbabilities;
+    }
+
+    public int getDF() {
+        return DF;
+    }
+
+    public int getOP() {
+        return OP;
+    }
+
+    public int getTP() {
+        return TP;
+    }
+
+    public int getST() {
+        return ST;
+    }
+
+    public int getFH() {
+        return FH;
+    }
+
+    public int getP() {
+        return P;
+    }
+
+    public int getQ() {
+        return Q;
     }
 }
