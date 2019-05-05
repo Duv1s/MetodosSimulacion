@@ -44,6 +44,17 @@ public class MiddleSquares {
         this.extracts = new ArrayList<>();
         this.maxDigits = calcMaxDigits();
     }
+    /**
+     * Método que calcula el máximo de digitos posbile a partir de la semilla
+     * @return extensión maxima de la semilla
+     */
+    private int calcMaxDigits() {
+        String maxNumber = "";
+        for (int i = 0; i < seedSize; i++) {
+            maxNumber += "9";
+        }
+        return new BigInteger(maxNumber).pow(2).toString().length();
+    }
 
     public void generateIn(ObservableList<Double> list) {
         extracts.clear();
@@ -63,6 +74,15 @@ public class MiddleSquares {
         }
     }
 
+
+    private StringBuilder completeXiSquare(BigInteger number){
+        StringBuilder xiSquare = new StringBuilder(number.toString());
+        while (xiSquare.length() < maxDigits) {
+            xiSquare.insert(0, "0");
+        }
+        return xiSquare;
+    }
+
     /**
      * Método que permite extraer los numeros del centro una vez se tiene el valor de xi al cuadrado
      * @param number xi al cuadrado.
@@ -74,25 +94,5 @@ public class MiddleSquares {
         return new BigInteger(xiSquare.substring(start, start + (seedSize)));
     }
 
-    private StringBuilder completeXiSquare(BigInteger number){
-        StringBuilder xiSquare = new StringBuilder(number.toString());
-        while (xiSquare.length() < maxDigits) {
-            xiSquare.insert(0, "0");
-        }
-        return xiSquare;
-    }
 
-
-
-    /**
-     * Método que calcula el máximo de digitos posbile a partir de la semilla
-     * @return extensión maxima de la semilla
-     */
-    private int calcMaxDigits() {
-        String maxNumber = "";
-        for (int i = 0; i < seedSize; i++) {
-            maxNumber += "9";
-        }
-        return new BigInteger(maxNumber).pow(2).toString().length();
-    }
 }

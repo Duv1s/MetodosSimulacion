@@ -227,16 +227,6 @@ public class FXMLController implements Initializable {
         mainTabbedPanel.getSelectionModel().select(6);
     }
 
-
-    @FXML
-    void openAbout() {
-        Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setTitle("Acerca de");
-        alert.setHeaderText("Simulación");
-        alert.setContentText("Julian David Grijalba Bernal \n Walter Mauricio Cuervo");
-        alert.showAndWait();
-    }
-
     private void showAlertCantGenerate() {
         Alert alert = new Alert(Alert.AlertType.WARNING);
         alert.setTitle("No se pueden generar");

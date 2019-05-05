@@ -40,45 +40,11 @@ public class OperationUniformDistribution {
             numFinded = TestUtils.passAllTests(listNumber, 95);
         }
     }
-
-    public int getQuantityNumber() {
-        return quantityNumber;
-    }
-
-    public void setQuantityNumber(int quantityNumber) {
-        this.quantityNumber = quantityNumber;
-    }
-
     public ArrayList<Double> getListNumber() {
         return listNumber;
-    }
-
-    public void setListNumber(ArrayList<Double> listNumber) {
-        this.listNumber = listNumber;
     }
 
     public ArrayList<Double> getListNumberPseudo() {
         return listNumberPseudo;
     }
-
-    public void setListNumberPseudo(ArrayList<Double> listNumberPseudo) {
-        this.listNumberPseudo = listNumberPseudo;
-    }
-
-    public int getLimitA() {
-        return limitA;
-    }
-
-    public void setLimitA(int limitA) {
-        this.limitA = limitA;
-    }
-
-    public int getLimitB() {
-        return limitB;
-    }
-
-    public void setLimitB(int limitB) {
-        this.limitB = limitB;
-    }
-
 }
